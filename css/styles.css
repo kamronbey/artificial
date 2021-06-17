@@ -20,8 +20,65 @@ body{
     width: 1300px;
     margin: 0 auto;
 }
+.menu__btn{
+    display: none;
+    padding: 6px 12px;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #3A68B8;
+    color: white;
+}
 
 .container{
     width: 1140px;
     margin: 0 auto;
+}
+
+.header{
+    background: #09111E;
+}
+
+.navbar .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #0A121F;
+}
+
+.nav__list{
+    display: flex;
+    align-items: center;
+    margin-right: 50px;
+}
+
+.nav__item{
+   padding-left: 30px;
+}
+
+.nav__link{
+    color: #fff;
+    font-size: 16px;
+    transition: .5s;
+}
+
+.nav__link:hover{
+    color: #3A68B8;
+}
+
+.nav__btn{
+    padding: 15px 30px;
+    background-color: #3A68B8;
+    border: 2px solid transparent;
+    font-size: 16px;
+    color: #fff;
+    margin-left: 100px;
+    border-radius: 10px;
+    font-weight: bold;
+    transition: .5s;
+}
+
+.nav__btn:hover{
+    background-color: #fff;
+    color: #3A68B8;
+    border: 2px solid #3A68B8;
 }
